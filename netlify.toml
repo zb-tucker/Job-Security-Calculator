@@ -4,6 +4,7 @@
 
 [functions]
   included_files = [
+    "server.js",
     "BLS_occupation_2024_2034.csv",
     "US_BLS_Employment_subset.csv"
   ]
