@@ -1,0 +1,247 @@
+occupation_title;occupation_code;soc_major_code;occupation_group;employment_2024;employment_2034;emp_change_pct;median_wage_2024;education_required;education_level;automation_risk_score;ai_risk_category;collar_type;growth_category;PosEmpChange
+      Chief executives;11-1011;11;  Management occupations;309.4;322.7;4.3;206420;Bachelor's degree;6;1;Low;White-collar;Stable;TRUE
+      General and operations managers;11-1021;11;  Management occupations;3712.9;3876.8;4.4;102950;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+      Advertising and promotions managers;11-2011;11;  Management occupations;27;26.4;-2.2;126960;Bachelor's degree;6;4;Medium;White-collar;Stable;FALSE
+        Marketing managers;11-2021;11;  Management occupations;407;433.7;6.6;161030;Bachelor's degree;6;2;Low;White-collar;Growing;TRUE
+        Sales managers;11-2022;11;  Management occupations;619.5;648.5;4.7;138060;Bachelor's degree;6;1;Low;White-collar;Stable;TRUE
+        Administrative services managers;11-3012;11;  Management occupations;271.2;283.8;4.6;108390;Bachelor's degree;6;4;Medium;White-collar;Stable;TRUE
+      Computer and information systems managers;11-3021;11;  Management occupations;667.1;768.7;15.2;171200;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Financial managers;11-3031;11;  Management occupations;868.6;997.4;14.8;161700;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Industrial production managers;11-3051;11;  Management occupations;241.9;246.5;1.9;121440;Bachelor's degree;6;5;Medium;White-collar;Stable;TRUE
+      Purchasing managers;11-3061;11;  Management occupations;83.5;86.1;3.1;139510;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+      Transportation, storage, and distribution managers;11-3071;11;  Management occupations;216.7;229.8;6.1;102010;High school diploma or equivalent;2;4;Medium;White-collar;Growing;TRUE
+      Compensation and benefits managers;11-3111;11;  Management occupations;20.9;20.9;0.2;140360;Bachelor's degree;6;2;Low;White-collar;Stable;TRUE
+      Human resources managers;11-3121;11;  Management occupations;221.9;233;5;140030;Bachelor's degree;6;1;Low;White-collar;Stable;TRUE
+      Training and development managers;11-3131;11;  Management occupations;46.4;49.2;5.8;127090;Bachelor's degree;6;1;Low;White-collar;Growing;TRUE
+      Farmers, ranchers, and other agricultural managers;11-9013;11;  Management occupations;836.1;825;-1.3;87980;High school diploma or equivalent;2;4;Medium;White-collar;Stable;FALSE
+      Construction managers;11-9021;11;  Management occupations;550.3;598.4;8.7;106980;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+        Education and childcare administrators, preschool and daycare;11-9031;11;  Management occupations;90.2;87.9;-2.5;56270;Bachelor's degree;6;3;Low;White-collar;Stable;FALSE
+        Education administrators, kindergarten through secondary;11-9032;11;  Management occupations;333.3;328.1;-1.5;104070;Master's degree;7;1;Low;White-collar;Stable;FALSE
+        Education administrators, postsecondary;11-9033;11;  Management occupations;226.6;230.5;1.7;103960;Master's degree;7;1;Low;White-collar;Stable;TRUE
+      Architectural and engineering managers;11-9041;11;  Management occupations;212.5;220.5;3.8;167740;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+      Food service managers;11-9051;11;  Management occupations;352.8;375.3;6.4;65310;High school diploma or equivalent;2;6;Medium;White-collar;Growing;TRUE
+        Gambling managers;11-9071;11;  Management occupations;5.1;5.2;1.2;85580;High school diploma or equivalent;2;3;Low;White-collar;Stable;TRUE
+      Lodging managers;11-9081;11;  Management occupations;52;53.8;3.4;68130;High school diploma or equivalent;2;4;Medium;White-collar;Stable;TRUE
+      Medical and health services managers;11-9111;11;  Management occupations;616.2;759.1;23.2;117960;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Natural sciences managers;11-9121;11;  Management occupations;104.3;108.2;3.7;161180;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+      Postmasters and mail superintendents;11-9131;11;  Management occupations;13.1;12.7;-3.5;92730;High school diploma or equivalent;2;4;Medium;White-collar;Stable;FALSE
+      Property, real estate, and community association managers;11-9141;11;  Management occupations;466.1;483.1;3.6;66700;High school diploma or equivalent;2;3;Low;White-collar;Stable;TRUE
+      Social and community service managers;11-9151;11;  Management occupations;219.8;233.9;6.4;78240;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Emergency management directors;11-9161;11;  Management occupations;13.2;13.6;3;86130;Bachelor's degree;6;2;Low;White-collar;Stable;TRUE
+        Funeral home managers;11-9171;11;  Management occupations;32.1;33.4;4.1;76830;Associate's degree;5;4;Medium;White-collar;Stable;TRUE
+      Agents and business managers of artists, performers, and athletes;13-1011;13;  Business and financial operations occupations;21.4;23.2;8.7;96310;Bachelor's degree;6;4;Medium;White-collar;Growing;TRUE
+        Claims adjusters, examiners, and investigators;13-1031;13;  Business and financial operations occupations;356.1;337.9;-5.1;76790;High school diploma or equivalent;2;6;Medium;White-collar;Declining;FALSE
+        Insurance appraisers, auto damage;13-1032;13;  Business and financial operations occupations;9.2;8.4;-8.2;76650;Postsecondary nondegree award;4;6;Medium;White-collar;Declining;FALSE
+      Compliance officers;13-1041;13;  Business and financial operations occupations;418;430.3;3;78420;Bachelor's degree;6;7;High;White-collar;Stable;TRUE
+      Cost estimators;13-1051;13;  Business and financial operations occupations;221.4;212.1;-4.2;77070;Bachelor's degree;6;3;Low;White-collar;Stable;FALSE
+        Human resources specialists;13-1071;13;  Business and financial operations occupations;944.3;1002.7;6.2;72910;Bachelor's degree;6;4;Medium;White-collar;Growing;TRUE
+        Farm labor contractors;13-1074;13;  Business and financial operations occupations;3.9;4.2;6;48690;No formal educational credential;1;7;High;White-collar;Growing;TRUE
+        Labor relations specialists;13-1075;13;  Business and financial operations occupations;65.4;65.4;-0.1;93500;Bachelor's degree;6;2;Low;White-collar;Stable;FALSE
+        Logisticians;13-1081;13;  Business and financial operations occupations;241;281.3;16.7;80880;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Management analysts;13-1111;13;  Business and financial operations occupations;1075.1;1169.7;8.8;101190;Bachelor's degree;6;1;Low;White-collar;Growing;TRUE
+      Meeting, convention, and event planners;13-1121;13;  Business and financial operations occupations;155.8;163.3;4.8;59440;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+      Fundraisers;13-1131;13;  Business and financial operations occupations;134.4;140.2;4.3;66490;Bachelor's degree;6;2;Low;White-collar;Stable;TRUE
+      Compensation, benefits, and job analysis specialists;13-1141;13;  Business and financial operations occupations;107;112.7;5.3;77020;Bachelor's degree;6;4;Medium;White-collar;Growing;TRUE
+      Training and development specialists;13-1151;13;  Business and financial operations occupations;452.3;501;10.8;65850;Bachelor's degree;6;1;Low;White-collar;Growing;TRUE
+      Market research analysts and marketing specialists;13-1161;13;  Business and financial operations occupations;941.7;1004.7;6.7;76950;Bachelor's degree;6;2;Low;White-collar;Growing;TRUE
+      Accountants and auditors;13-2011;13;  Business and financial operations occupations;1579.8;1652.6;4.6;81680;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+      Budget analysts;13-2031;13;  Business and financial operations occupations;50.4;51;1;87930;Bachelor's degree;6;4;Medium;White-collar;Stable;TRUE
+      Credit analysts;13-2041;13;  Business and financial operations occupations;67.8;64.8;-4.4;80970;Bachelor's degree;6;4;Medium;White-collar;Stable;FALSE
+        Personal financial advisors;13-2052;13;  Business and financial operations occupations;326;357.2;9.6;102140;Bachelor's degree;6;2;Low;White-collar;Growing;TRUE
+        Insurance underwriters;13-2053;13;  Business and financial operations occupations;127;123.7;-2.6;79880;Bachelor's degree;6;4;Medium;White-collar;Stable;FALSE
+      Financial examiners;13-2061;13;  Business and financial operations occupations;65.1;77.2;18.5;90400;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+        Credit counselors;13-2071;13;  Business and financial operations occupations;31.8;32.9;3.3;50480;Bachelor's degree;6;5;Medium;White-collar;Stable;TRUE
+        Loan officers;13-2072;13;  Business and financial operations occupations;301.4;306.5;1.7;74180;Bachelor's degree;6;4;Medium;White-collar;Stable;TRUE
+        Tax examiners and collectors, and revenue agents;13-2081;13;  Business and financial operations occupations;57.6;56.5;-1.8;59740;Bachelor's degree;6;5;Medium;White-collar;Stable;FALSE
+        Tax preparers;13-2082;13;  Business and financial operations occupations;90.6;94.7;4.5;50560;High school diploma or equivalent;2;5;Medium;White-collar;Stable;TRUE
+        Computer systems analysts;15-1211;15;  Computer and mathematical occupations;521.1;566.5;8.7;103790;Bachelor's degree;6;5;Medium;White-collar;Growing;TRUE
+        Information security analysts;15-1212;15;  Computer and mathematical occupations;182.8;234.9;28.5;124910;Bachelor's degree;6;4;Medium;White-collar;Growing;TRUE
+      Computer and information research scientists;15-1221;15;  Computer and mathematical occupations;40.3;48.3;19.7;140910;Master's degree;7;3;Low;White-collar;Growing;TRUE
+        Computer network support specialists;15-1231;15;  Computer and mathematical occupations;152.7;155.5;1.8;73340;Associate's degree;5;5;Medium;White-collar;Stable;TRUE
+        Computer user support specialists;15-1232;15;  Computer and mathematical occupations;729.5;702.5;-3.7;60340;Some college, no degree;3;5;Medium;White-collar;Stable;FALSE
+        Computer network architects;15-1241;15;  Computer and mathematical occupations;179.2;200.6;11.9;130390;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+        Database administrators;15-1242;15;  Computer and mathematical occupations;78;77.5;-0.7;104620;Bachelor's degree;6;5;Medium;White-collar;Stable;FALSE
+        Database architects;15-1243;15;  Computer and mathematical occupations;66.9;72.7;8.7;135980;Bachelor's degree;6;4;Medium;White-collar;Growing;TRUE
+        Network and computer systems administrators;15-1244;15;  Computer and mathematical occupations;331.5;317.7;-4.2;96800;Bachelor's degree;6;5;Medium;White-collar;Stable;FALSE
+        Computer programmers;15-1251;15;  Computer and mathematical occupations;121.2;113.9;-6;98670;Bachelor's degree;6;4;Medium;White-collar;Declining;FALSE
+        Software quality assurance analysts and testers;15-1253;15;  Computer and mathematical occupations;201.7;221.9;10;102610;Bachelor's degree;6;4;Medium;White-collar;Growing;TRUE
+        Web developers;15-1254;15;  Computer and mathematical occupations;86;92.5;7.5;90930;Bachelor's degree;6;5;Medium;White-collar;Growing;TRUE
+      Actuaries;15-2011;15;  Computer and mathematical occupations;33.6;40.9;21.8;125770;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Mathematicians;15-2021;15;  Computer and mathematical occupations;2.4;2.4;-0.7;121680;Master's degree;7;2;Low;White-collar;Stable;FALSE
+      Operations research analysts;15-2031;15;  Computer and mathematical occupations;112.1;136.2;21.5;91290;Bachelor's degree;6;2;Low;White-collar;Growing;TRUE
+      Statisticians;15-2041;15;  Computer and mathematical occupations;32.2;34.9;8.5;103300;Master's degree;7;3;Low;White-collar;Growing;TRUE
+        Architects, except landscape and naval;17-1011;17;  Architecture and engineering occupations;123.6;128.4;3.9;96690;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+        Landscape architects;17-1012;17;  Architecture and engineering occupations;21.8;22.6;3.5;79660;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+        Cartographers and photogrammetrists;17-1021;17;  Architecture and engineering occupations;13.4;14.3;6.4;78380;Bachelor's degree;6;6;Medium;White-collar;Growing;TRUE
+        Surveyors;17-1022;17;  Architecture and engineering occupations;56.1;58.6;4.4;72740;Bachelor's degree;6;6;Medium;White-collar;Stable;TRUE
+      Aerospace engineers;17-2011;17;  Architecture and engineering occupations;71.6;75.9;6.1;134830;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Agricultural engineers;17-2021;17;  Architecture and engineering occupations;1.7;1.8;5.9;84630;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Bioengineers and biomedical engineers;17-2031;17;  Architecture and engineering occupations;22.2;23.3;5.2;106950;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Chemical engineers;17-2041;17;  Architecture and engineering occupations;21.6;22.1;2.6;121860;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+      Civil engineers;17-2051;17;  Architecture and engineering occupations;368.9;387.5;5;99590;Bachelor's degree;6;4;Medium;White-collar;Stable;TRUE
+      Computer hardware engineers;17-2061;17;  Architecture and engineering occupations;76.8;82.4;7.3;155020;Bachelor's degree;6;4;Medium;White-collar;Growing;TRUE
+        Electrical engineers;17-2071;17;  Architecture and engineering occupations;192;205.7;7.2;111910;Bachelor's degree;6;4;Medium;White-collar;Growing;TRUE
+        Electronics engineers, except computer;17-2072;17;  Architecture and engineering occupations;95.9;101.8;6.2;127590;Bachelor's degree;6;5;Medium;White-collar;Growing;TRUE
+      Environmental engineers;17-2081;17;  Architecture and engineering occupations;39.4;41;3.9;104170;Bachelor's degree;6;2;Low;White-collar;Stable;TRUE
+        Health and safety engineers, except mining safety engineers and inspectors;17-2111;17;  Architecture and engineering occupations;23.8;24.9;4.4;109660;Bachelor's degree;6;4;Medium;White-collar;Stable;TRUE
+        Industrial engineers;17-2112;17;  Architecture and engineering occupations;351.1;389.6;11;101140;Bachelor's degree;6;4;Medium;White-collar;Growing;TRUE
+      Marine engineers and naval architects;17-2121;17;  Architecture and engineering occupations;8.5;9;5.8;105670;Bachelor's degree;6;5;Medium;White-collar;Growing;TRUE
+      Materials engineers;17-2131;17;  Architecture and engineering occupations;23;24.3;5.7;108310;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Mechanical engineers;17-2141;17;  Architecture and engineering occupations;293.1;319.6;9.1;102320;Bachelor's degree;6;5;Medium;White-collar;Growing;TRUE
+      Mining and geological engineers, including mining safety engineers;17-2151;17;  Architecture and engineering occupations;7;7;0.7;101020;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+      Nuclear engineers;17-2161;17;  Architecture and engineering occupations;15.4;15.3;-1.1;127520;Bachelor's degree;6;5;Medium;White-collar;Stable;FALSE
+      Petroleum engineers;17-2171;17;  Architecture and engineering occupations;19.6;19.8;1.3;141280;Bachelor's degree;6;2;Low;White-collar;Stable;TRUE
+        Architectural and civil drafters;17-3011;17;  Architecture and engineering occupations;110.5;115.1;4.1;64280;Associate's degree;5;6;Medium;White-collar;Stable;TRUE
+        Electrical and electronics drafters;17-3012;17;  Architecture and engineering occupations;21.6;20.4;-5.6;73720;Associate's degree;5;7;High;White-collar;Declining;FALSE
+        Mechanical drafters;17-3013;17;  Architecture and engineering occupations;42.9;40.1;-6.5;68510;Associate's degree;5;6;Medium;White-collar;Declining;FALSE
+        Aerospace engineering and operations technologists and technicians;17-3021;17;  Architecture and engineering occupations;9.3;10.1;8.1;79830;Associate's degree;5;6;Medium;White-collar;Growing;TRUE
+        Civil engineering technologists and technicians;17-3022;17;  Architecture and engineering occupations;64.9;66.2;2.1;64200;Associate's degree;5;5;Medium;White-collar;Stable;TRUE
+        Electrical and electronic engineering technologists and technicians;17-3023;17;  Architecture and engineering occupations;93.7;94.3;0.6;77180;Associate's degree;5;5;Medium;White-collar;Stable;TRUE
+        Electro-mechanical and mechatronics technologists and technicians;17-3024;17;  Architecture and engineering occupations;15;15.1;1.1;70760;Associate's degree;5;7;High;White-collar;Stable;TRUE
+        Environmental engineering technologists and technicians;17-3025;17;  Architecture and engineering occupations;12.9;13;1.2;58890;Associate's degree;5;6;Medium;White-collar;Stable;TRUE
+        Industrial engineering technologists and technicians;17-3026;17;  Architecture and engineering occupations;74.6;75.9;1.7;64790;Associate's degree;5;5;Medium;White-collar;Stable;TRUE
+        Mechanical engineering technologists and technicians;17-3027;17;  Architecture and engineering occupations;38.3;38.3;0;68730;Associate's degree;5;5;Medium;White-collar;Stable;TRUE
+      Surveying and mapping technicians;17-3031;17;  Architecture and engineering occupations;59.4;62.1;4.5;51940;High school diploma or equivalent;2;7;High;White-collar;Stable;TRUE
+        Animal scientists;19-1011;19;  Life, physical, and social science occupations;2.8;2.9;5.8;79120;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+        Food scientists and technologists;19-1012;19;  Life, physical, and social science occupations;15.2;16.2;6.5;85310;Bachelor's degree;6;4;Medium;White-collar;Growing;TRUE
+        Soil and plant scientists;19-1013;19;  Life, physical, and social science occupations;20.7;21.8;5.4;71410;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+        Biochemists and biophysicists;19-1021;19;  Life, physical, and social science occupations;35.6;37.6;5.8;103650;Doctoral or professional degree;8;3;Low;White-collar;Growing;TRUE
+        Microbiologists;19-1022;19;  Life, physical, and social science occupations;20.7;21.6;4.1;87330;Bachelor's degree;6;5;Medium;White-collar;Stable;TRUE
+        Zoologists and wildlife biologists;19-1023;19;  Life, physical, and social science occupations;18.2;18.5;1.6;72860;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+        Conservation scientists;19-1031;19;  Life, physical, and social science occupations;28.5;29.5;3.4;67950;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+        Foresters;19-1032;19;  Life, physical, and social science occupations;13.8;14;1.2;70660;Bachelor's degree;6;5;Medium;White-collar;Stable;TRUE
+        Epidemiologists;19-1041;19;  Life, physical, and social science occupations;12.3;14.3;16.2;83980;Master's degree;7;2;Low;White-collar;Growing;TRUE
+        Medical scientists, except epidemiologists;19-1042;19;  Life, physical, and social science occupations;165.3;179.6;8.7;100590;Doctoral or professional degree;8;5;Medium;White-collar;Growing;TRUE
+        Astronomers;19-2011;19;  Life, physical, and social science occupations;1.8;1.8;2.2;132170;Doctoral or professional degree;8;2;Low;White-collar;Stable;TRUE
+        Physicists;19-2012;19;  Life, physical, and social science occupations;24.6;25.6;4;166290;Doctoral or professional degree;8;2;Low;White-collar;Stable;TRUE
+      Atmospheric and space scientists;19-2021;19;  Life, physical, and social science occupations;9.4;9.5;0.7;97450;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+        Chemists;19-2031;19;  Life, physical, and social science occupations;86.8;91;4.9;84150;Bachelor's degree;6;5;Medium;White-collar;Stable;TRUE
+        Materials scientists;19-2032;19;  Life, physical, and social science occupations;8.7;9.1;4.9;104160;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+        Environmental scientists and specialists, including health;19-2041;19;  Life, physical, and social science occupations;90.3;94.3;4.4;80060;Bachelor's degree;6;4;Medium;White-collar;Stable;TRUE
+        Geoscientists, except hydrologists and geographers;19-2042;19;  Life, physical, and social science occupations;25.1;26;3.2;99240;Bachelor's degree;6;3;Low;White-collar;Stable;TRUE
+        Hydrologists;19-2043;19;  Life, physical, and social science occupations;6.3;6.3;-0.1;92060;Bachelor's degree;6;3;Low;White-collar;Stable;FALSE
+      Economists;19-3011;19;  Life, physical, and social science occupations;17.6;17.8;1.2;115440;Master's degree;7;2;Low;White-collar;Stable;TRUE
+      Survey researchers;19-3022;19;  Life, physical, and social science occupations;8.8;8.3;-5.2;63380;Master's degree;7;2;Low;White-collar;Declining;FALSE
+        Industrial-organizational psychologists;19-3032;19;  Life, physical, and social science occupations;5.6;5.9;6.3;109840;Master's degree;7;1;Low;White-collar;Growing;TRUE
+        Clinical and counseling psychologists;19-3033;19;  Life, physical, and social science occupations;76.3;84.8;11.2;95830;Doctoral or professional degree;8;1;Low;White-collar;Growing;TRUE
+        School psychologists;19-3034;19;  Life, physical, and social science occupations;67.2;67.7;0.7;86930;Master's degree;7;3;Low;White-collar;Stable;TRUE
+      Sociologists;19-3041;19;  Life, physical, and social science occupations;3.4;3.6;3.6;101690;Master's degree;7;1;Low;White-collar;Stable;TRUE
+      Urban and regional planners;19-3051;19;  Life, physical, and social science occupations;44.7;46.2;3.4;83720;Master's degree;7;1;Low;White-collar;Stable;TRUE
+        Anthropologists and archeologists;19-3091;19;  Life, physical, and social science occupations;8.8;9.2;3.7;64910;Master's degree;7;2;Low;White-collar;Stable;TRUE
+        Geographers;19-3092;19;  Life, physical, and social science occupations;1.5;1.5;-3.1;97200;Bachelor's degree;6;2;Low;White-collar;Stable;FALSE
+        Historians;19-3093;19;  Life, physical, and social science occupations;3.4;3.5;2.2;74050;Master's degree;7;3;Low;White-collar;Stable;TRUE
+        Political scientists;19-3094;19;  Life, physical, and social science occupations;6.5;6.3;-3.1;139380;Master's degree;7;2;Low;White-collar;Stable;FALSE
+        Agricultural technicians;19-4012;19;  Life, physical, and social science occupations;18.6;19.4;4.3;46790;Associate's degree;5;6;Medium;White-collar;Stable;TRUE
+        Food science technicians;19-4013;19;  Life, physical, and social science occupations;20.4;21.3;4.8;49430;Associate's degree;5;6;Medium;White-collar;Stable;TRUE
+      Biological technicians;19-4021;19;  Life, physical, and social science occupations;82.7;85.6;3.5;52000;Bachelor's degree;6;6;Medium;White-collar;Stable;TRUE
+      Chemical technicians;19-4031;19;  Life, physical, and social science occupations;57;59;3.7;57790;Associate's degree;5;8;High;White-collar;Stable;TRUE
+        Environmental science and protection technicians, including health;19-4042;19;  Life, physical, and social science occupations;40.4;42.1;4;49490;Associate's degree;5;5;Medium;White-collar;Stable;TRUE
+        Geological technicians, except hydrologic technicians;19-4043;19;  Life, physical, and social science occupations;9.8;10;1.5;48390;Associate's degree;5;6;Medium;White-collar;Stable;TRUE
+      Nuclear technicians;19-4051;19;  Life, physical, and social science occupations;6;5.5;-7.7;104240;Associate's degree;5;8;High;White-collar;Declining;FALSE
+      Social science research assistants;19-4061;19;  Life, physical, and social science occupations;40.6;42.3;4.4;58040;Bachelor's degree;6;4;Medium;White-collar;Stable;TRUE
+      Forest and conservation technicians;19-4071;19;  Life, physical, and social science occupations;33.8;32.7;-3.2;54310;Associate's degree;5;6;Medium;White-collar;Stable;FALSE
+        Forensic science technicians;19-4092;19;  Life, physical, and social science occupations;20.7;23.3;12.8;67440;Bachelor's degree;6;6;Medium;White-collar;Growing;TRUE
+      Occupational health and safety specialists;19-5011;19;  Life, physical, and social science occupations;131.9;148.4;12.5;83910;Bachelor's degree;6;3;Low;White-collar;Growing;TRUE
+      Occupational health and safety technicians;19-5012;19;  Life, physical, and social science occupations;31.9;34.6;8.5;58440;High school diploma or equivalent;2;4;Medium;White-collar;Growing;TRUE
+        Nursing assistants;31-1131;31;  Healthcare support occupations;1441.5;1474;2.3;39530;Postsecondary nondegree award;4;6;Medium;Blue-collar;Stable;TRUE
+        Orderlies;31-1132;31;  Healthcare support occupations;54;55.8;3.3;37700;High school diploma or equivalent;2;8;High;Blue-collar;Stable;TRUE
+        Psychiatric aides;31-1133;31;  Healthcare support occupations;38.5;38.3;-0.4;41590;High school diploma or equivalent;2;5;Medium;Blue-collar;Stable;FALSE
+        Occupational therapy assistants;31-2011;31;  Healthcare support occupations;49.2;58.7;19.2;68340;Associate's degree;5;5;Medium;Blue-collar;Growing;TRUE
+        Occupational therapy aides;31-2012;31;  Healthcare support occupations;5.2;5.3;2.5;37370;High school diploma or equivalent;2;4;Medium;Blue-collar;Stable;TRUE
+        Physical therapist assistants;31-2021;31;  Healthcare support occupations;111.5;136;22;65510;Associate's degree;5;4;Medium;Blue-collar;Growing;TRUE
+        Physical therapist aides;31-2022;31;  Healthcare support occupations;45.6;46.9;2.8;34520;High school diploma or equivalent;2;5;Medium;Blue-collar;Stable;TRUE
+      Massage therapists;31-9011;31;  Healthcare support occupations;168;193.9;15.4;57950;Postsecondary nondegree award;4;5;Medium;Blue-collar;Growing;TRUE
+        Dental assistants;31-9091;31;  Healthcare support occupations;381.9;406.3;6.4;47300;Postsecondary nondegree award;4;6;Medium;Blue-collar;Growing;TRUE
+        Medical assistants;31-9092;31;  Healthcare support occupations;811;912.2;12.5;44200;Postsecondary nondegree award;4;5;Medium;Blue-collar;Growing;TRUE
+        Medical equipment preparers;31-9093;31;  Healthcare support occupations;76.5;84.2;10;46490;High school diploma or equivalent;2;8;High;Blue-collar;Growing;TRUE
+        Medical transcriptionists;31-9094;31;  Healthcare support occupations;43.9;41.8;-4.9;37550;Postsecondary nondegree award;4;7;High;Blue-collar;Stable;FALSE
+        Pharmacy aides;31-9095;31;  Healthcare support occupations;41.1;41.1;-0.1;37000;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;FALSE
+        Veterinary assistants and laboratory animal caretakers;31-9096;31;  Healthcare support occupations;117.8;128.1;8.7;37320;High school diploma or equivalent;2;6;Medium;Blue-collar;Growing;TRUE
+        Phlebotomists;31-9097;31;  Healthcare support occupations;139.7;147.5;5.6;43660;Postsecondary nondegree award;4;6;Medium;Blue-collar;Growing;TRUE
+        First-line supervisors of gambling services workers;39-1013;39;  Personal care and service occupations;32.5;33.1;2;61590;High school diploma or equivalent;2;5;Medium;Blue-collar;Stable;TRUE
+      First-line supervisors of personal service workers;39-1022;39;  Personal care and service occupations;149.1;159.1;6.7;47080;High school diploma or equivalent;2;4;Medium;Blue-collar;Growing;TRUE
+      Animal trainers;39-2011;39;  Personal care and service occupations;47.3;49.8;5.1;38750;High school diploma or equivalent;2;4;Medium;Blue-collar;Growing;TRUE
+      Animal caretakers;39-2021;39;  Personal care and service occupations;392.1;439.6;12.1;33470;High school diploma or equivalent;2;6;Medium;Blue-collar;Growing;TRUE
+        Gambling dealers;39-3011;39;  Personal care and service occupations;88.7;88.1;-0.6;33280;High school diploma or equivalent;2;9;High;Blue-collar;Stable;FALSE
+        Gambling and sports book writers and runners;39-3012;39;  Personal care and service occupations;8.2;7.7;-6.1;30460;High school diploma or equivalent;2;8;High;Blue-collar;Declining;FALSE
+      Motion picture projectionists;39-3021;39;  Personal care and service occupations;2;2;-3.7;38180;No formal educational credential;1;8;High;Blue-collar;Stable;FALSE
+      Ushers, lobby attendants, and ticket takers;39-3031;39;  Personal care and service occupations;121.7;123.1;1.2;31150;No formal educational credential;1;7;High;Blue-collar;Stable;TRUE
+        Amusement and recreation attendants;39-3091;39;  Personal care and service occupations;392.3;405.5;3.4;30490;No formal educational credential;1;6;Medium;Blue-collar;Stable;TRUE
+        Costume attendants;39-3092;39;  Personal care and service occupations;6.7;7.1;5.9;54810;High school diploma or equivalent;2;6;Medium;Blue-collar;Growing;TRUE
+        Locker room, coatroom, and dressing room attendants;39-3093;39;  Personal care and service occupations;15.6;16.6;6.4;34800;High school diploma or equivalent;2;7;High;Blue-collar;Growing;TRUE
+        Embalmers;39-4011;39;  Personal care and service occupations;3.6;3.7;1.3;56280;Associate's degree;5;7;High;Blue-collar;Stable;TRUE
+      Funeral attendants;39-4021;39;  Personal care and service occupations;32.5;33.5;3.1;34610;High school diploma or equivalent;2;5;Medium;Blue-collar;Stable;TRUE
+      Morticians, undertakers, and funeral arrangers;39-4031;39;  Personal care and service occupations;27.5;28.4;3.1;49800;Associate's degree;5;4;Medium;Blue-collar;Stable;TRUE
+        Barbers;39-5011;39;  Personal care and service occupations;76;79.2;4.1;38960;Postsecondary nondegree award;4;7;High;Blue-collar;Stable;TRUE
+        Hairdressers, hairstylists, and cosmetologists;39-5012;39;  Personal care and service occupations;575.2;607.4;5.6;35250;Postsecondary nondegree award;4;6;Medium;Blue-collar;Growing;TRUE
+        Makeup artists, theatrical and performance;39-5091;39;  Personal care and service occupations;7;7.6;8.1;50280;Postsecondary nondegree award;4;5;Medium;Blue-collar;Growing;TRUE
+        Manicurists and pedicurists;39-5092;39;  Personal care and service occupations;210.1;224.8;7;34660;Postsecondary nondegree award;4;7;High;Blue-collar;Growing;TRUE
+        Shampooers;39-5093;39;  Personal care and service occupations;18.5;19.6;5.5;31470;No formal educational credential;1;7;High;Blue-collar;Growing;TRUE
+        Skincare specialists;39-5094;39;  Personal care and service occupations;97.4;103.9;6.7;41560;Postsecondary nondegree award;4;6;Medium;Blue-collar;Growing;TRUE
+      Baggage porters and bellhops;39-6011;39;  Personal care and service occupations;32.5;32;-1.6;36020;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;FALSE
+      Concierges;39-6012;39;  Personal care and service occupations;45.6;46.7;2.3;37320;High school diploma or equivalent;2;3;Low;Blue-collar;Stable;TRUE
+      Childcare workers;39-9011;39;  Personal care and service occupations;991.6;962.4;-2.9;32050;High school diploma or equivalent;2;4;Medium;Blue-collar;Stable;FALSE
+        Exercise trainers and group fitness instructors;39-9031;39;  Personal care and service occupations;370.1;414.2;11.9;46180;High school diploma or equivalent;2;4;Medium;Blue-collar;Growing;TRUE
+        Recreation workers;39-9032;39;  Personal care and service occupations;327.7;341.1;4.1;35380;High school diploma or equivalent;2;3;Low;Blue-collar;Stable;TRUE
+      Residential advisors;39-9041;39;  Personal care and service occupations;91.2;94.7;3.8;39180;High school diploma or equivalent;2;3;Low;Blue-collar;Stable;TRUE
+      First-line supervisors of office and administrative support workers;43-1011;43;  Office and administrative support occupations;1558.4;1554.4;-0.3;66140;High school diploma or equivalent;2;3;Low;Blue-collar;Stable;FALSE
+      Switchboard operators, including answering service;43-2011;43;  Office and administrative support occupations;36.6;27;-26.3;38370;High school diploma or equivalent;2;7;High;Blue-collar;Declining;FALSE
+      Telephone operators;43-2021;43;  Office and administrative support occupations;4;2.9;-27.5;39130;High school diploma or equivalent;2;8;High;Blue-collar;Declining;FALSE
+      Bill and account collectors;43-3011;43;  Office and administrative support occupations;166.9;149.4;-10.5;46040;High school diploma or equivalent;2;5;Medium;Blue-collar;Declining;FALSE
+      Billing and posting clerks;43-3021;43;  Office and administrative support occupations;429.8;427.9;-0.4;47170;High school diploma or equivalent;2;7;High;Blue-collar;Stable;FALSE
+      Bookkeeping, accounting, and auditing clerks;43-3031;43;  Office and administrative support occupations;1613.4;1519.1;-5.8;49210;Some college, no degree;3;7;High;Blue-collar;Declining;FALSE
+      Gambling cage workers;43-3041;43;  Office and administrative support occupations;14.1;13.4;-5;36990;High school diploma or equivalent;2;7;High;Blue-collar;Stable;FALSE
+      Payroll and timekeeping clerks;43-3051;43;  Office and administrative support occupations;161.1;134.2;-16.7;55290;High school diploma or equivalent;2;6;Medium;Blue-collar;Declining;FALSE
+      Procurement clerks;43-3061;43;  Office and administrative support occupations;61.9;56.6;-8.7;48510;High school diploma or equivalent;2;5;Medium;Blue-collar;Declining;FALSE
+      Tellers;43-3071;43;  Office and administrative support occupations;347.4;302.5;-12.9;39340;High school diploma or equivalent;2;7;High;Blue-collar;Declining;FALSE
+      Brokerage clerks;43-4011;43;  Office and administrative support occupations;40.8;36.9;-9.5;62940;High school diploma or equivalent;2;7;High;Blue-collar;Declining;FALSE
+      Correspondence clerks;43-4021;43;  Office and administrative support occupations;6.9;6.5;-5.6;46740;High school diploma or equivalent;2;5;Medium;Blue-collar;Declining;FALSE
+      Court, municipal, and license clerks;43-4031;43;  Office and administrative support occupations;180.4;185.9;3;47700;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;TRUE
+      Credit authorizers, checkers, and clerks;43-4041;43;  Office and administrative support occupations;12;11.3;-6.2;49130;High school diploma or equivalent;2;5;Medium;Blue-collar;Declining;FALSE
+      Customer service representatives;43-4051;43;  Office and administrative support occupations;2814;2660.3;-5.5;42830;High school diploma or equivalent;2;5;Medium;Blue-collar;Declining;FALSE
+      Eligibility interviewers, government programs;43-4061;43;  Office and administrative support occupations;166.8;168.5;1;51500;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;TRUE
+      File clerks;43-4071;43;  Office and administrative support occupations;84.3;70.9;-15.9;41270;High school diploma or equivalent;2;7;High;Blue-collar;Declining;FALSE
+      Hotel, motel, and resort desk clerks;43-4081;43;  Office and administrative support occupations;264.2;274;3.7;34270;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;TRUE
+      Interviewers, except eligibility and loan;43-4111;43;  Office and administrative support occupations;164.3;145.1;-11.6;43830;High school diploma or equivalent;2;5;Medium;Blue-collar;Declining;FALSE
+      Library assistants, clerical;43-4121;43;  Office and administrative support occupations;84.5;78.9;-6.7;36010;High school diploma or equivalent;2;6;Medium;Blue-collar;Declining;FALSE
+      Loan interviewers and clerks;43-4131;43;  Office and administrative support occupations;177.6;173.5;-2.3;48950;High school diploma or equivalent;2;5;Medium;Blue-collar;Stable;FALSE
+      New accounts clerks;43-4141;43;  Office and administrative support occupations;38.9;33.8;-13.2;46610;High school diploma or equivalent;2;6;Medium;Blue-collar;Declining;FALSE
+      Order clerks;43-4151;43;  Office and administrative support occupations;89.5;74.1;-17.2;44660;Some college, no degree;3;5;Medium;Blue-collar;Declining;FALSE
+      Human resources assistants, except payroll and timekeeping;43-4161;43;  Office and administrative support occupations;95.2;88.4;-7.1;49440;Associate's degree;5;5;Medium;Blue-collar;Declining;FALSE
+      Receptionists and information clerks;43-4171;43;  Office and administrative support occupations;1007.2;1007.6;0;37230;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;TRUE
+      Reservation and transportation ticket agents and travel clerks;43-4181;43;  Office and administrative support occupations;131.9;135.6;2.8;41460;High school diploma or equivalent;2;7;High;Blue-collar;Stable;TRUE
+      Cargo and freight agents;43-5011;43;  Office and administrative support occupations;100.6;109.2;8.5;49900;High school diploma or equivalent;2;6;Medium;Blue-collar;Growing;TRUE
+      Couriers and messengers;43-5021;43;  Office and administrative support occupations;247.2;267.6;8.2;38340;High school diploma or equivalent;2;9;High;Blue-collar;Growing;TRUE
+        Public safety telecommunicators;43-5031;43;  Office and administrative support occupations;105.2;108.9;3.5;50730;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;TRUE
+        Dispatchers, except police, fire, and ambulance;43-5032;43;  Office and administrative support occupations;218.7;216.7;-0.9;48880;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;FALSE
+      Meter readers, utilities;43-5041;43;  Office and administrative support occupations;20.1;17.7;-12;49180;High school diploma or equivalent;2;9;High;Blue-collar;Declining;FALSE
+        Postal service clerks;43-5051;43;  Office and administrative support occupations;74.2;71.6;-3.5;61630;No formal educational credential;1;7;High;Blue-collar;Stable;FALSE
+        Postal service mail carriers;43-5052;43;  Office and administrative support occupations;319.4;308.1;-3.5;57490;No formal educational credential;1;10;High;Blue-collar;Stable;FALSE
+        Postal service mail sorters, processors, and processing machine operators;43-5053;43;  Office and administrative support occupations;106.4;97.5;-8.4;56530;No formal educational credential;1;9;High;Blue-collar;Declining;FALSE
+      Production, planning, and expediting clerks;43-5061;43;  Office and administrative support occupations;388.8;381.7;-1.8;57770;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;FALSE
+      Shipping, receiving, and inventory clerks;43-5071;43;  Office and administrative support occupations;862.2;795.8;-7.7;43190;High school diploma or equivalent;2;7;High;Blue-collar;Declining;FALSE
+      Weighers, measurers, checkers, and samplers, recordkeeping;43-5111;43;  Office and administrative support occupations;49.8;47.4;-4.8;45650;High school diploma or equivalent;2;7;High;Blue-collar;Stable;FALSE
+      Executive secretaries and executive administrative assistants;43-6011;43;  Office and administrative support occupations;502.8;494.9;-1.6;74260;High school diploma or equivalent;2;5;Medium;Blue-collar;Stable;FALSE
+      Legal secretaries and administrative assistants;43-6012;43;  Office and administrative support occupations;156.3;147.3;-5.8;54140;High school diploma or equivalent;2;6;Medium;Blue-collar;Declining;FALSE
+      Medical secretaries and administrative assistants;43-6013;43;  Office and administrative support occupations;850;885.3;4.2;44640;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;TRUE
+      Secretaries and administrative assistants, except legal, medical, and executive;43-6014;43;  Office and administrative support occupations;1944;1913.2;-1.6;46290;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;FALSE
+        Data entry keyers;43-9021;43;  Office and administrative support occupations;141.6;104.9;-25.9;39850;High school diploma or equivalent;2;6;Medium;Blue-collar;Declining;FALSE
+        Word processors and typists;43-9022;43;  Office and administrative support occupations;40;25.6;-36.1;47850;High school diploma or equivalent;2;7;High;Blue-collar;Declining;FALSE
+      Desktop publishers;43-9031;43;  Office and administrative support occupations;5;4.4;-12.4;53620;Associate's degree;5;5;Medium;Blue-collar;Declining;FALSE
+      Insurance claims and policy processing clerks;43-9041;43;  Office and administrative support occupations;256.7;247.2;-3.7;48450;High school diploma or equivalent;2;7;High;Blue-collar;Stable;FALSE
+      Mail clerks and mail machine operators, except postal service;43-9051;43;  Office and administrative support occupations;67.4;62.9;-6.6;38150;High school diploma or equivalent;2;8;High;Blue-collar;Declining;FALSE
+      Office clerks, general;43-9061;43;  Office and administrative support occupations;2646;2468.2;-6.7;43630;High school diploma or equivalent;2;7;High;Blue-collar;Declining;FALSE
+      Office machine operators, except computer;43-9071;43;  Office and administrative support occupations;25.5;21.6;-15.2;39020;High school diploma or equivalent;2;7;High;Blue-collar;Declining;FALSE
+      Proofreaders and copy markers;43-9081;43;  Office and administrative support occupations;12;11.9;-0.6;49210;Bachelor's degree;6;8;High;White-collar;Stable;FALSE
+      Statistical assistants;43-9111;43;  Office and administrative support occupations;6.5;6.3;-2.5;51440;Bachelor's degree;6;4;Medium;White-collar;Stable;FALSE
+      First-line supervisors of farming, fishing, and forestry workers;45-1011;45;  Farming, fishing, and forestry occupations;65.4;67;2.5;59330;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;TRUE
+      Agricultural inspectors;45-2011;45;  Farming, fishing, and forestry occupations;14.7;14.9;1.5;50990;Bachelor's degree;6;7;High;Blue-collar;Stable;TRUE
+      Animal breeders;45-2021;45;  Farming, fishing, and forestry occupations;7.9;8.1;2.4;52000;High school diploma or equivalent;2;6;Medium;Blue-collar;Stable;TRUE
+      Graders and sorters, agricultural products;45-2041;45;  Farming, fishing, and forestry occupations;38.9;36.8;-5.4;35430;No formal educational credential;1;8;High;Blue-collar;Declining;FALSE
+        Agricultural equipment operators;45-2091;45;  Farming, fishing, and forestry occupations;65.2;70.3;7.7;42580;No formal educational credential;1;6;Medium;Blue-collar;Growing;TRUE
+        Farmworkers and laborers, crop, nursery, and greenhouse;45-2092;45;  Farming, fishing, and forestry occupations;504.8;488.1;-3.3;35690;No formal educational credential;1;8;High;Blue-collar;Stable;FALSE
+        Farmworkers, farm, ranch, and aquacultural animals;45-2093;45;  Farming, fishing, and forestry occupations;224.6;213.4;-5;36150;No formal educational credential;1;6;Medium;Blue-collar;Stable;FALSE
+      Forest and conservation workers;45-4011;45;  Farming, fishing, and forestry occupations;10.8;10.3;-4.7;43680;High school diploma or equivalent;2;5;Medium;Blue-collar;Stable;FALSE
+        Fallers;45-4021;45;  Farming, fishing, and forestry occupations;5.6;5.2;-7.3;53900;High school diploma or equivalent;2;10;High;Blue-collar;Declining;FALSE
+        Logging equipment operators;45-4022;45;  Farming, fishing, and forestry occupations;30.9;30.5;-1.4;49210;High school diploma or equivalent;2;8;High;Blue-collar;Stable;FALSE
+        Log graders and scalers;45-4023;45;  Farming, fishing, and forestry occupations;4.6;4.6;-0.7;46710;High school diploma or equivalent;2;8;High;Blue-collar;Stable;FALSE

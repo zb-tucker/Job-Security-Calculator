@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Security Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Analysis controls">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">J</span>
+          <div>
+            <h1>Job Security Calculator</h1>
+            <p>Labor risk intelligence</p>
+          </div>
+        </div>
+
+        <form class="control-stack" id="risk-form">
+          <label class="field">
+            <span>Profession or role</span>
+            <input
+              id="role-input"
+              name="role"
+              type="text"
+              autocomplete="off"
+              value="software engineer"
+              placeholder="software engineer, nurse, financial analyst"
+            />
+          </label>
+
+          <label class="field">
+            <span>Company</span>
+            <input
+              id="company-input"
+              name="company"
+              type="text"
+              autocomplete="organization"
+              value="Meta"
+              placeholder="Meta, Mayo Clinic, JPMorgan, local employer"
+            />
+          </label>
+
+          <button class="primary-action" type="submit">
+            <span class="button-icon" aria-hidden="true">></span>
+            <span class="button-spinner" aria-hidden="true"></span>
+            <span class="button-label">Run analysis</span>
+          </button>
+          <button class="secondary-action" id="save-watch" type="button">Save to watchlist</button>
+        </form>
+
+        <div class="classifier-card" aria-label="Classification result">
+          <h2>Classification</h2>
+          <dl>
+            <div>
+              <dt>BLS matched role</dt>
+              <dd id="matched-role">Loading BLS data</dd>
+            </div>
+            <div>
+              <dt>Local role hint</dt>
+              <dd id="role-hint">Waiting for input</dd>
+            </div>
+            <div>
+              <dt>Matched company</dt>
+              <dd id="matched-company">Waiting for input</dd>
+            </div>
+            <div>
+              <dt>Data mode</dt>
+              <dd id="data-mode">Initializing</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="watchlist-card" aria-label="Saved watchlist">
+          <h2>Watchlist</h2>
+          <div class="watchlist" id="watchlist"></div>
+        </div>
+
+        <div class="source-list" aria-label="Research source scope">
+          <h2>Source scope</h2>
+          <div class="source-row ready" id="source-csv">
+            <strong>BLS employment CSV</strong>
+            <span id="csv-status">Loading</span>
+          </div>
+          <div class="source-row ready" id="source-anthropic">
+            <strong>Anthropic AI coverage graph</strong>
+            <span id="anthropic-status">Local source</span>
+          </div>
+          <div class="source-row planned" id="source-company">
+            <strong>Company lookup</strong>
+            <span id="company-status">Waiting</span>
+          </div>
+          <div class="source-row planned" id="source-semantic">
+            <strong>Small semantic model</strong>
+            <span id="semantic-status">Waiting</span>
+          </div>
+          <div class="source-row planned" id="source-news">
+            <strong>Live news discovery</strong>
+            <span id="news-status">Waiting</span>
+          </div>
+          <div class="source-row planned" id="source-postings">
+            <strong>Job boards and posting history</strong>
+            <span id="postings-status">Waiting</span>
+          </div>
+          <div class="source-row planned" id="source-linkedin">
+            <strong>LinkedIn public discovery</strong>
+            <span id="linkedin-status">Waiting</span>
+          </div>
+          <div class="source-row planned" id="source-filings">
+            <strong>SEC filings</strong>
+            <span id="filings-status">Waiting</span>
+          </div>
+          <div class="source-row planned" id="source-sentiment">
+            <strong>Public sentiment and forums</strong>
+            <span id="sentiment-status">Waiting</span>
+          </div>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p id="analysis-kicker">Field and company analysis</p>
+            <h2 id="analysis-title">Select a profession to estimate risk</h2>
+          </div>
+          <div class="status-strip" aria-label="Agent status">
+            <span class="status-dot"></span>
+            <span id="agent-status">Ready</span>
+          </div>
+        </header>
+
+        <section class="score-band" aria-label="Risk summary">
+          <div class="score-card">
+            <span class="card-label">Composite risk</span>
+            <div class="score-meter" role="img" aria-label="Composite risk score">
+              <svg viewBox="0 0 160 160" aria-hidden="true">
+                <circle class="meter-track" cx="80" cy="80" r="64"></circle>
+                <circle class="meter-fill" id="risk-ring" cx="80" cy="80" r="64"></circle>
+              </svg>
+              <strong id="risk-score">0</strong>
+            </div>
+            <p id="risk-label">Waiting for analysis</p>
+          </div>
+
+          <div class="signal-grid" id="signal-grid"></div>
+
+          <div class="verdict-panel">
+            <span class="card-label">Interpretation</span>
+            <h3 id="verdict-title">No model run yet</h3>
+            <p id="verdict-copy">
+              Choose a role and company, then run the analysis to combine labor demand,
+              automation exposure, layoffs, and emerging news into a directional risk estimate.
+            </p>
+          </div>
+        </section>
+
+        <section class="research-layout">
+          <div class="panel trend-panel">
+            <div class="panel-header">
+              <div>
+                <span class="card-label">Profession outlook</span>
+                <h3>Employment direction</h3>
+              </div>
+              <div class="segmented" role="tablist" aria-label="Trend view">
+                <button type="button" class="active" data-view="employment">Jobs</button>
+                <button type="button" data-view="risk">Risk</button>
+                <button type="button" data-view="wage">Wage</button>
+              </div>
+            </div>
+            <div class="chart" id="trend-chart" aria-label="Trend chart"></div>
+          </div>
+
+          <div class="panel company-panel">
+            <div class="panel-header">
+              <div>
+                <span class="card-label">Company posture</span>
+                <h3 id="company-title">Company evidence</h3>
+              </div>
+              <span class="confidence" id="confidence-label">Confidence 0%</span>
+            </div>
+            <div class="company-score">
+              <span id="company-risk">0</span>
+              <p id="company-copy">Select a company signal to view layoff and strategy indicators.</p>
+            </div>
+            <div class="mini-bars" id="company-bars"></div>
+          </div>
+        </section>
+
+        <section class="lower-grid">
+          <div class="panel">
+            <div class="panel-header">
+              <div>
+                <span class="card-label">Evidence stream</span>
+                <h3>What changed the score</h3>
+              </div>
+              <button class="ghost-button" id="toggle-evidence" type="button">Show all</button>
+            </div>
+            <div class="evidence-list" id="evidence-list"></div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-header">
+              <div>
+                <span class="card-label">Agent run</span>
+                <h3>Collection pipeline</h3>
+              </div>
+            </div>
+            <ol class="agent-steps" id="agent-steps"></ol>
+          </div>
+        </section>
+
+        <section class="panel graph-panel">
+          <div class="panel-header">
+            <div>
+              <span class="card-label">Local AI exposure reference</span>
+              <h3>Anthropic occupational coverage graph</h3>
+            </div>
+          </div>
+          <div class="field-intel">
+            <img
+              src="c1952c81bca02a7c8cc05ef7801e67ca60831c55-4096x4096.webp"
+              alt="Anthropic graph showing theoretical and observed AI coverage by occupational category"
+            />
+            <aside class="future-panel" aria-label="Related fields and theoretical future risk">
+              <span class="card-label">Related field outlook</span>
+              <div class="future-scores">
+                <div>
+                  <strong id="future-risk">0</strong>
+                  <span>Future risk</span>
+                </div>
+                <div>
+                  <strong id="future-security">0</strong>
+                  <span>Future security</span>
+                </div>
+              </div>
+              <p id="future-rationale">Run an analysis to see field-level future risk and security.</p>
+              <div class="related-fields" id="related-fields"></div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="profile-strip" aria-label="Professional profiles">
+          <div>
+            <span class="card-label">Creator profiles</span>
+            <h3>Zach Tucker</h3>
+          </div>
+          <nav class="profile-links" aria-label="Professional profile links">
+            <a href="https://app.joinhandshake.com/profiles/zbtucker03" target="_blank" rel="noopener noreferrer">Handshake</a>
+            <a href="https://www.linkedin.com/in/zbtucker03/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </nav>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

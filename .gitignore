@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.netlify/
+.vercel/
+dist/
+build/
+npm-debug.log*
+Thumbs.db

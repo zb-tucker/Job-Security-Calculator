@@ -1,0 +1,13 @@
+{
+  "name": "job-security-calculator",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A sourced job security risk analysis dashboard with live ingestion adapters.",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
