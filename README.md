@@ -20,7 +20,7 @@ The app should be served through `server.js` because the product API performs li
 
 ## Deploy
 
-Use a Node web-service host so the live ingestion API can run alongside the UI. Render is configured through `render.yaml`; see `DEPLOYMENT.md` for the shipping checklist.
+Use Netlify Functions or a Node web-service host so the live ingestion API can run alongside the UI. Netlify is configured through `netlify.toml`; Render is configured through `render.yaml`. See `DEPLOYMENT.md` for the shipping checklist.
 
 ## Current Product Prototype
 

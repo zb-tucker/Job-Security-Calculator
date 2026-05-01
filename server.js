@@ -2111,6 +2111,10 @@ function sendJson(response, statusCode, payload) {
   response.end(JSON.stringify(payload, null, 2));
 }
 
+function healthPayload() {
+  return { ok: true, cacheEntries: cache.size, now: new Date().toISOString() };
+}
+
 async function serveStatic(request, response) {
   const requestUrl = new URL(request.url, `http://${request.headers.host}`);
   const pathname = requestUrl.pathname === "/" ? "/index.html" : requestUrl.pathname;
@@ -2134,11 +2138,12 @@ async function serveStatic(request, response) {
   }
 }
 
-const server = http.createServer(async (request, response) => {
+function createAppServer() {
+  return http.createServer(async (request, response) => {
   const requestUrl = new URL(request.url, `http://${request.headers.host}`);
 
   if (requestUrl.pathname === "/api/health") {
-    sendJson(response, 200, { ok: true, cacheEntries: cache.size, now: new Date().toISOString() });
+    sendJson(response, 200, healthPayload());
     return;
   }
 
@@ -2155,8 +2160,19 @@ const server = http.createServer(async (request, response) => {
   }
 
   await serveStatic(request, response);
-});
+  });
+}
 
-server.listen(PORT, HOST, () => {
-  console.log(`Job Security Calculator running at http://${HOST}:${PORT}`);
-});
+if (require.main === module) {
+  const server = createAppServer();
+
+  server.listen(PORT, HOST, () => {
+    console.log(`Job Security Calculator running at http://${HOST}:${PORT}`);
+  });
+}
+
+module.exports = {
+  analyze,
+  createAppServer,
+  healthPayload,
+};

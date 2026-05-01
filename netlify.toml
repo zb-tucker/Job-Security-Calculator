@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  included_files = [
+    "BLS_occupation_2024_2034.csv",
+    "US_BLS_Employment_subset.csv"
+  ]
+
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Cache-Control = "no-store"
